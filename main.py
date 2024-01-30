@@ -8,7 +8,7 @@ w.minsize(750, 200)
 w.title("Digital Clock")
 
 #background
-background_image_path = "/home/manya/clobg.png"
+background_image_path = "/home/manya/clobg.png" #add your image path for custom background
 img1 = Image.open(background_image_path)
 img2 = ImageTk.PhotoImage(img1)
 Label(w, image=img2).place(x=-2, y=0)
