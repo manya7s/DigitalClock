@@ -38,11 +38,6 @@ date_label.place(x=275, y=10)
 l2 = Label(f1, font=('Century Gothic', 50), bg='#0e1013', fg='#7f7f7f', text='DAY')
 l2.place(x=70, y=45)
 
-l1_12 = Label(f1, font=('Century Gothic', 55), bg='#0e1013', foreground='#bcbcbc')
-l1_12.place(x=275, y=45)
-
-l1_24 = Label(f1, font=('Century Gothic', 55), bg='#0e1013', foreground='#bcbcbc')
-l1_24.place(x=275, y=45)
 
 #storing function id to stop flickering of time display
 global scheduled_function_id
